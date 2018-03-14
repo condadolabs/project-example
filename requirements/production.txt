@@ -1,0 +1,15 @@
+-r common.txt
+
+# Static Files and Media Storage
+# -------------------------------------
+django-storages==1.6.5
+boto3==1.6.6
+
+# Caching
+# -------------------------------------
+django-redis==4.9.0
+hiredis==0.2.0
+
+# Basic Auth Protection
+# -------------------------------------
+django-auth-wall==0.2.0

@@ -1,0 +1,31 @@
+# Core Stuff
+# --------------------------------------
+Django==2.0.3
+dj-database-url==0.5.0
+gunicorn==19.7.1
+django-mail-templated==2.6.5
+
+# Database
+# --------------------------------------
+psycopg2-binary==2.7.4
+
+# Extension
+# --------------------------------------
+pytz==2018.3
+django-extensions==1.7.9
+
+# Configuration
+# --------------------------------------
+python-decouple==3.1
+
+# Documentation
+# -------------------------------------
+mkdocs==0.17.3
+
+# Sentry client
+# --------------------------
+raven==6.6.0
+
+# Async Tasks
+# -------------------------------------
+celery[redis]==4.1.0
